@@ -31,6 +31,9 @@ BDD feature description
     And The page content contains
       | Select your flight to         | Queenstown   	|
       | Select your return flight to  | Auckland	    |
-      ```
-      
-      
+```
+
+
+# Test report example
+![alt text](https://github.com/pazjing/airNZBooking/blob/master/libs/Cucmber_report_1.png)
+![alt text](https://github.com/pazjing/airNZBooking/blob/master/libs/Cucmber_report_2.png)
