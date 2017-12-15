@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="FlightBooking" allow-return-values="true">
+    <test name="FlightBooking">
+        <groups>
+            <run>
+                <include name="pageFactory"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="nz.co.airnz.testng.TestBooking"/>
+        </classes>
+    </test>
+
+</suite>

@@ -1,4 +1,4 @@
-package nz.co.airNZ;
+package nz.co.airnz.cucumber;
 
 import cucumber.api.DataTable;
 import cucumber.api.java.After;
@@ -9,22 +9,19 @@ import cucumber.api.java.en.When;
 import gherkin.formatter.model.DataTableRow;
 import org.junit.Assert;
 import org.openqa.selenium.By;
-import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.*;
-import java.util.concurrent.TimeUnit;
 
 /**
  * Created by jingbai on 12/12/17.
  */
-public class bookFlight {
+public class BookFlight {
 
     WebDriver driver = null;
     WebDriverWait dw = null;

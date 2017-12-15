@@ -1,4 +1,4 @@
-package nz.co.airNZ;
+package nz.co.airnz.cucumber;
 
 
 import cucumber.api.junit.Cucumber;
@@ -11,10 +11,10 @@ import org.junit.runner.RunWith;
 @Cucumber.Options (
         format ={"json:target/cucumber.json"},
         features = {"src/test/resource" },
-        glue = { "nz.co.airNZ"},
+        glue = { "nz.co.airnz.cucumber"},
         tags = { "@flight"}
 )
-public class runnerTest {
+public class RunnerTest {
 
 
 }

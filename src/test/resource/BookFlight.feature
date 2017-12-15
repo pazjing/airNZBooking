@@ -12,7 +12,7 @@ Feature: To test the book flight ticket function of Air New Zealand
     And Select day "2" of next month in the "leaveDate" form
     And Select day "20" of next month in the "returnDate" form
     And I click Search button
-   Then I should see the "Select your flights" page
+    Then I should see the "Select your flights" page
     And The page content contains
       | Select your flight to         | Queenstown   	|
       | Select your return flight to  | Auckland	    |
